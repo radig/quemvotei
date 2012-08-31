@@ -15,7 +15,10 @@
 	],
 	"require": {
 		"php" : ">=5.3.3",
-		"silex/silex": "1.0.*"
+		"silex/silex": "1.0.*",
+		"fate/silex-extensions": "*",
+		"querypath/QueryPath": "*",
+		"doctrine/mongodb": "*"
 	},
 	"minimum-stability": "dev",
 	"autoload": {
