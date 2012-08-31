@@ -1,0 +1,26 @@
+{
+	"name" : "radig/quemvotei",
+	"type" : "application",
+	"description" : "Core da aplicação QuemVotei.",
+	"keywords" : ["framework", "eleições", "radig", "silex"],
+	"homepage" : "http://radig.github.com/quemvotei/",
+	"license" : "MIT",
+	"authors" : [
+		{
+			"name" : "Alisson Oshiro"
+		},
+		{
+			"name" : "Cauan Cabral"
+		}
+	],
+	"require": {
+		"php" : ">=5.3.3",
+		"silex/silex": "1.0.*"
+	},
+	"minimum-stability": "dev",
+	"autoload": {
+		"psr-0": {
+			"Radig": "src/"
+		}
+	}
+}
