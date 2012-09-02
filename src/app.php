@@ -15,6 +15,7 @@ $app->get('/{token}/meus-candidatos/', function($token) use($app) {
 $app->get('/init', function() use($app) {
 	$cands = new Radig\Parsers\CandidatosTse();
 	$cands->start($app['mongodb']->selectDatabase('quemvotei'));
+	$cands->syncDb();
 
 	return 'Inicializado';
 });
